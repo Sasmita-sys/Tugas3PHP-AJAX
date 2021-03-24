@@ -34,9 +34,10 @@
             include("login.php");
         }
         else{
+            // header("location:chatting.php");
+            echo '<META HTTP-EQUIV="Refresh" Content="0; URL=chatting.php">';
             $text2 = '<span class="closebtn" onclick="'.$onklik.'">&times;</span>Welcome '. $user .' .<br/>You Have Successfully Logging.';
             echo '<div class="alert">'.$text2.'</div>';
-            header("location: chatting.php");
         }
     }
 ?>
