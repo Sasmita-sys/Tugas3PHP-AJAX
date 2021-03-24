@@ -38,7 +38,7 @@
 		<br>
 		<input type='text' name='chat' id='chatbox' autocomplete="off" required placeholder="ENTER CHAT HERE" />
 		<input type='submit' name='send' id='send' class='btn btn-send' value='Send' />
-		<input type='button' name='clear' class='btn btn-clear' id='clear' value='X' title="Clear Chat" />
+		<input type='button' name='clear' class='btn btn-clear' id='clear' value='Clear' title="Clear Chat" />
 	</form>
 <script>
 // Javascript function to submit new chat entered by user
